@@ -1,0 +1,108 @@
+body {
+    font-family: sans-serif;
+    font-size: 12px;
+    color: rgb(61, 61, 61);
+  }
+  
+  /*/ NAVIGATOR BAR & FOOTER SECTION /*/
+  #navbar {
+    line-height: 20px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  #footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(224, 221, 221, 0.418);
+    border-top: solid rgba(209, 203, 203, 0.518) 1px;
+    margin-left: -10px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  li.left {
+    float: left;
+  }
+  li.right {
+    float: right;
+  }
+  li {
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    overflow: hidden;
+  }
+  a {
+    overflow: hidden;
+    text-decoration: none;
+    color: rgb(29, 29, 29);
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: rgb(110, 109, 109);
+  }
+  
+  img.grid {
+    opacity: 0.5;
+  }
+  
+  img.grid:hover {
+    opacity: 1;
+  }
+  /*/ LOGO /*/
+  #logo {
+    padding: 100px 0px 5px 0px;
+    margin: 10px auto 10px auto;
+    text-align: center;
+  }
+  
+  /*/ SEARCH BAR /*/
+  form {
+    text-align: center;
+  }
+  
+  input.bar {
+    padding: 10px 10px 5px 40px;
+    width: 500px;
+    height: 25px;
+    border-radius: 40px;
+    text-align: left;
+    border: solid rgb(206, 201, 201);
+    border-width: 0.5px;
+  }
+  
+  input.button {
+    padding: 5px 5px 6px;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: rgba(224, 221, 221, 0.418);
+    border-width: 0px;
+    font-size: 12px;
+    color: rgb(88, 88, 88);
+  }
+  
+  input.button:hover {
+    position: relative;
+    background-color: #f8f8f8;
+    border: 1px;
+    border-style: solid;
+    border-color: #b3b3b3;
+    width: 130px;
+  }
+  
+  #searchbaricon {
+    position: absolute;
+    height: 15px;
+    opacity: 0.5;
+    padding: 15px;
+  }
+  
